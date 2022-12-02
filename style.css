@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.menu__lista{
+    margin: 12px;
+    list-style-type: none;
+}
+
+.menu__lista--enlaces{
+    color: white;
+    text-decoration: none;
+}
+
+.fondo1{
+    background-image: url('./files/fondo-titulo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.fondo1__p{
+    color: brown;
+    margin: 5px;
+    padding: 0;
+}
+
+.fondo2{
+    display: flex;
+    background-image: url('./files/fondo-2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo2__negro{
+    background-color: rgb(58, 54, 54);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fondo2__negro--titulo{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.fondo2__negro--p{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+
+.fondo3{
+    display: flex;
+    height: 600px;
+    background-image: url('./files/fondo-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.fondo3__galery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+
+.fondo3__galery--div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fondo3__galery__div--img{
+    max-width: 100%;
+    margin: 10px;
+}
+
+.fondo3__galery--img{
+    max-width: 25%;
+    margin: 10px;
+}
+
+
+
+
+
